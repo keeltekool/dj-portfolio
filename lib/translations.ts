@@ -4,7 +4,7 @@ export const translations = {
       quoteParts: [
         { text: "Playing ", highlight: false },
         { text: "tracks you", highlight: true },
-        { text: " didn't know you needed. ", highlight: false },
+        { text: " didn't know you wanted to hear and dance to! ", highlight: false },
         { text: "Always digging", highlight: true },
         { text: " for fresh sounds, ", highlight: false },
         { text: "mixing genres", highlight: true },
@@ -23,7 +23,7 @@ export const translations = {
       digDeeper: "Dig Deeper",
       artistBrowser: "My Spotify Browser",
       customBuilt: "",
-      browserDescription: "Browse my collection by genre tags — discover the artists behind the sets and find new music through my curated tagging system.",
+      browserDescription: "Browse my collection by genre tags — discover the artists behind my sets and find new music through my curated tagging system.",
       exploreCollection: "Explore the collection",
     },
     gear: {
@@ -61,7 +61,7 @@ export const translations = {
       quoteParts: [
         { text: "Mängin ", highlight: false },
         { text: "lugusid, mida sa", highlight: true },
-        { text: " ei teadnudki, et need sulle meeldivad. ", highlight: false },
+        { text: " ei teadnudki, et tahad kuulda ja tantsida! ", highlight: false },
         { text: "Alati uut muusikat otsimas", highlight: true },
         { text: ", ", highlight: false },
         { text: "žanre segamas", highlight: true },
@@ -80,7 +80,7 @@ export const translations = {
       digDeeper: "Avasta",
       artistBrowser: "Artist Browser Tool",
       customBuilt: "", // Remove for EE
-      browserDescription: "Uuri minu muusikakollektsiooni žanrite kaupa. Leia uusi artiste ja avasta, mis mu settide taga tegelikult peitub.",
+      browserDescription: "Uuri minu muusikakollektsiooni žanrite kaupa. Leia uusi artiste ja avasta, mis minu settide taga tegelikult peitub.",
       exploreCollection: "Tutvu kollektsiooniga",
     },
     gear: {
