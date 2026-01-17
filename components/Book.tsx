@@ -30,8 +30,8 @@ export function Book() {
 
   return (
     <section className="py-10 md:py-12 border-t border-[var(--border)]">
-      <h2 className="text-2xl uppercase tracking-widest text-[var(--accent)] font-bold mb-4">{t.booking.header}</h2>
-      <h3 className="text-3xl md:text-4xl font-bold mb-8">{t.booking.headline}</h3>
+      <h2 className="text-3xl uppercase tracking-widest text-[var(--accent)] font-bold mb-4">{t.booking.header}</h2>
+      <h3 className="text-4xl md:text-5xl font-bold mb-8">{t.booking.headline}</h3>
 
       <div className="grid md:grid-cols-2 gap-12">
         <form onSubmit={handleSubmit} className="space-y-4">

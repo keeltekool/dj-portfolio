@@ -1,147 +1,63 @@
-# Egertv Portfolio - Claude Code Instructions
+# DJ Portfolio - Build Context
 
-## Quick Reference
+## STATUS: Ready to build. Just say "Start".
 
-| Item | Value |
-|------|-------|
-| **Live Site** | https://egertv.vercel.app |
-| **GitHub** | https://github.com/keeltekool/nordic-portfolio |
-| **Project Path** | `C:\Users\Kasutaja\Claude_Projects\nordic-portfolio` |
-| **Owner** | Egert Väinaste |
-| **LinkedIn** | https://www.linkedin.com/in/egert-vainaste/ |
-| **Stack** | Next.js 16 + Tailwind CSS v4 + TypeScript |
+## What This Is
+DJ landing page for Egert_V. Minimal, dark-friendly, fromourminds.com aesthetic.
 
----
+## Tech Stack (already installed)
+- Next.js 16, React 19, Tailwind CSS 4, next-themes
 
-## Common Tasks
+## Files Ready
+- `PRD.md` - Full spec
+- `data/content.json` - All content (editable, swap playlists here)
+- `public/images/` - Hero + gear images
 
-### Add a New Project
+## Build Tasks
+1. Update `app/layout.tsx` metadata for DJ site
+2. Build components in `components/`:
+   - `Hero.tsx` - Full-width image with name overlay
+   - `Intro.tsx` - Update with DJ bio (already exists, just update)
+   - `SoundInfluences.tsx` - Genres + influences
+   - `Events.tsx` - Event types
+   - `Gear.tsx` - Equipment list + Tooonal.png image
+   - `Listen.tsx` - Spotify iframe embeds
+   - `Book.tsx` - Contact section
+3. Update `Header.tsx` - Change name to Egert_V, add Spotify icon link
+4. Update `Footer.tsx` - Simple footer
+5. Assemble in `app/page.tsx`
+6. Add subtle scroll fade-in animations (CSS or intersection observer)
+7. Run dev server, test
 
-1. Edit `data/projects.json`
-2. Add new object to the `projects` array:
-```json
-{
-  "id": "unique-kebab-case-id",
-  "title": "Project Title",
-  "description": "Short description (1-2 sentences max).",
-  "url": "https://live-app-url.com",
-  "github": "https://github.com/keeltekool/repo-name"
-}
-```
-3. Commit and push - Vercel auto-deploys
-
-**Note**: To find live URLs for projects, run:
-```bash
-gh repo list keeltekool --json name,homepageUrl -L 20
-```
-
-### Remove a Project
-
-1. Edit `data/projects.json`
-2. Delete the project object from the array
-3. Commit and push
-
-### Reorder Projects
-
-1. Edit `data/projects.json`
-2. Change the order of objects in the array (first = top-left)
-3. Commit and push
-
-### Update Intro Text
-
-Edit `components/Intro.tsx`
-
-### Update Header (Name/Links)
-
-Edit `components/Header.tsx`
-
----
-
-## Project Structure
-
-```
-nordic-portfolio/
-├── app/
-│   ├── layout.tsx        # Root layout + theme provider
-│   ├── page.tsx          # Main page
-│   └── globals.css       # Tailwind + CSS variables
-├── components/
-│   ├── Header.tsx        # Name + LinkedIn + theme toggle
-│   ├── Intro.tsx         # Author bio
-│   ├── ProjectCard.tsx   # Single project card (Open App + GitHub links)
-│   ├── ProjectGrid.tsx   # Grid container
-│   ├── Footer.tsx        # Footer
-│   ├── ThemeProvider.tsx # Dark/light mode wrapper
-│   └── ThemeToggle.tsx   # Theme switch button
-├── data/
-│   └── projects.json     # ⭐ MAIN CONFIG FILE
-├── lib/
-│   └── types.ts          # TypeScript interfaces (Project type)
-└── package.json
-```
-
----
-
-## Current Projects (in projects.json)
-
-1. **Pocket Clone** - Link-saving app | [App](https://keeltekool.github.io/Pocket_Clone/)
-2. **Spotify Artist Browser** - Discover artists by genre | [App](https://spotify-artist-browser-gamma.vercel.app)
-3. **Spotify Genre Browser** - Browse genres and artists | [App](https://keeltekool.github.io/spotify-discovery/)
-4. **PicMachine Web** - Cloud image viewer | [App](https://keeltekool.github.io/PicMachine_Web/)
-
----
-
-## Project Card Format
-
-Each card displays:
-- **Title** (project name)
-- **Description** (1-2 sentences)
-- **"Open App"** link → `url` field (opens live app)
-- **"GitHub"** link → `github` field (opens repo)
-
----
+## Content Summary (from content.json)
+- **Name:** Egert_V
+- **Bio:** "Playing tracks you didn't know you needed. Always digging for fresh sounds, mixing genres, keeping it unpredictable."
+- **Genres:** House, Disco, Funk, Soul, Hip-Hop, Beats, Electronic
+- **Influences:** Daft Punk, Jamie XX, Kaytranada, Folamour, Mochakk
+- **Events:** Bar & Lounge, Corporate, Private parties
+- **Gear:** Denon SC Live 4, EV ZLX-15P G2, JBL EON618S
+- **Contact:** egertv@gmail.com, +372 56633351
+- **Spotify:** https://open.spotify.com/user/1xnhqtyznwbvh6q48087hzcmv
+- **Hero image:** /images/snapedit_1727537146983_Yoooo-Photoroom.jpg
+- **Gear image:** /images/Tooonal.png
 
 ## Design Notes
+- Minimal, lots of whitespace
+- Dark/light theme toggle (keep from template)
+- Hero image subtle, not overpowering
+- Spotify embeds use iframe with dark theme
+- Reference: fromourminds.com
 
-- **Style**: Minimal, clean (inspired by leerob.io)
-- **Colors Light**: bg #fafafa, text #171717, border #e5e5e5
-- **Colors Dark**: bg #0a0a0a, text #ededed, border #262626
-- **Layout**: Max-width 672px, 2-column card grid on desktop, 1-column on mobile
-- **Theme**: System preference default, toggle in header
+## Cleanup
+- Delete `data/projects.json` (not needed)
+- Remove/replace ProjectCard.tsx, ProjectGrid.tsx (not needed)
 
----
-
-## Deployment
-
-- **Live URL**: https://egertv.vercel.app
-- **Auto-deploy**: Push to `master` branch → Vercel deploys automatically
-- **Manual deploy**: `vercel --prod` from project directory
-- **Change domain**: `vercel alias set <deployment-url> <new-alias>.vercel.app`
-
----
+## GitHub
+- Repo: https://github.com/keeltekool/dj-portfolio
+- Deploy to Vercel after build
 
 ## Development
-
 ```bash
-cd C:\Users\Kasutaja\Claude_Projects\nordic-portfolio
+cd C:\Users\Kasutaja\Claude_Projects\dj-portfolio
 npm run dev     # Start dev server at localhost:3000
-npm run build   # Build for production
-```
-
----
-
-## Useful Commands
-
-```bash
-# Check git status
-git status
-
-# Deploy changes
-git add -A && git commit -m "Message" && git push
-
-# List all Vercel projects with URLs
-gh repo list keeltekool --json name,homepageUrl -L 20
-
-# Add Vercel alias
-vercel alias set <deployment> <alias>.vercel.app
 ```

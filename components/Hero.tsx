@@ -24,7 +24,7 @@ export function Hero() {
             )`
           }}
         />
-        <h1 className="absolute bottom-6 left-6 md:bottom-10 md:left-10 text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight">
+        <h1 className="absolute bottom-6 left-6 md:bottom-10 md:left-10 text-5xl md:text-7xl lg:text-8xl font-bold text-white tracking-tight">
           DJ Egert_<span className="text-[var(--accent)]">V</span>
         </h1>
       </div>

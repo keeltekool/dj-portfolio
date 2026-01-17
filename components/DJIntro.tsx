@@ -7,7 +7,7 @@ export function DJIntro() {
 
   return (
     <section className="py-6 md:py-8">
-      <blockquote className="text-xl md:text-2xl text-[var(--muted)] leading-relaxed italic text-center">
+      <blockquote className="text-2xl md:text-3xl text-[var(--muted)] leading-relaxed italic text-center">
         "
         {t.djIntro.quoteParts.map((part, index) => (
           <span
