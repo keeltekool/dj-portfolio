@@ -1,4 +1,18 @@
+"use client";
+
+import { useTranslation } from "@/lib/useTranslation";
+
 export function Footer() {
+  const { t } = useTranslation();
+
+  // Don't render footer content for Estonian (empty string)
+  if (!t.footer.builtWith) {
+    return (
+      <footer className="py-8 mt-8 border-t border-[var(--border)]">
+      </footer>
+    );
+  }
+
   return (
     <footer className="py-8 mt-8 border-t border-[var(--border)]">
       <p className="text-sm text-[var(--muted)]">

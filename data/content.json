@@ -1,0 +1,35 @@
+{
+  "name": "Egert_V",
+  "intro": "Playing tracks you didn't know you needed. Always digging for fresh sounds, mixing genres, keeping it unpredictable.",
+  "genres": ["House", "Disco", "Funk", "Soul", "Hip-Hop", "Beats", "Electronic"],
+  "influences": ["Daft Punk", "Jamie XX", "Kaytranada", "Folamour", "Mochakk"],
+  "events": [
+    "Bar & Lounge sets",
+    "Corporate events",
+    "Private parties"
+  ],
+  "gear": {
+    "tagline": "Full mobile setup - ready for any venue.",
+    "items": [
+      { "type": "Console", "name": "Denon SC Live 4" },
+      { "type": "Speakers", "name": "Electro Voice ZLX-15P G2" },
+      { "type": "Sub", "name": "JBL EON618S" }
+    ]
+  },
+  "playlists": [
+    "https://open.spotify.com/playlist/0xhNZkXqnP62gheIiOdoqt",
+    "https://open.spotify.com/playlist/4Op75bOMT6CxOs0Y4cT7BO"
+  ],
+  "contact": {
+    "headline": "Let's make it happen.",
+    "email": "egertv@gmail.com",
+    "phone": "+372 56633351"
+  },
+  "social": {
+    "spotify": "https://open.spotify.com/user/1xnhqtyznwbvh6q48087hzcmv"
+  },
+  "images": {
+    "hero": "/images/snapedit_1727537146983_Yoooo-Photoroom.jpg",
+    "gear": "/images/Tooonal.png"
+  }
+}
