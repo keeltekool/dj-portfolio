@@ -15,7 +15,7 @@ export function SoundInfluences() {
             {genres.map((genre) => (
               <span
                 key={genre}
-                className="px-4 py-2 text-base border border-[var(--border)] rounded-full hover:bg-[var(--card-hover)] transition-colors"
+                className="px-4 py-2 text-base border border-[var(--border)] rounded-full hover:bg-[var(--card-hover)] hover:-translate-y-1 hover:shadow-md transition-all duration-200 cursor-default"
               >
                 {genre}
               </span>

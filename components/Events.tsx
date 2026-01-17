@@ -46,7 +46,7 @@ export function Events() {
         {eventTypes.map((event) => (
           <div
             key={event.title}
-            className="p-6 border border-[var(--border)] rounded-lg hover:bg-[var(--card-hover)] transition-colors text-center"
+            className="p-6 border border-[var(--border)] rounded-lg hover:bg-[var(--card-hover)] hover:-translate-y-1 hover:shadow-lg transition-all duration-200 text-center"
           >
             <div className="mb-4 flex justify-center text-[var(--muted)]">{event.icon}</div>
             <h3 className="text-lg font-medium">{event.title}</h3>
@@ -68,7 +68,7 @@ export function Venues() {
         <p className="text-3xl italic text-[var(--muted)] mb-8">Some of the gigs & venues</p>
         <div className="flex flex-wrap justify-center gap-12 md:gap-16">
           <div className="flex flex-col items-center">
-            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-lg overflow-hidden bg-white">
+            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-lg overflow-hidden bg-white hover:scale-105 transition-transform duration-200">
               <Image
                 src="/images/277100343_4995508413820240_8699164706532330275_n.jpg"
                 alt="NABA Bar"
@@ -79,7 +79,7 @@ export function Venues() {
             <p className="mt-4 text-base text-[var(--muted)] text-center">Naba Bar<br />(Kuressaare)</p>
           </div>
           <div className="flex flex-col items-center">
-            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-lg overflow-hidden bg-white">
+            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-lg overflow-hidden bg-white hover:scale-105 transition-transform duration-200">
               <Image
                 src="/images/431140761_122124275510191187_8440817533010792574_n.jpg"
                 alt="Sõstar Bar & Lounge"
