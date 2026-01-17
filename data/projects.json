@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "id": "pocket-clone",
+      "title": "Pocket Clone",
+      "description": "Save articles for later. Minimal link-saving with auto-fetched titles, thumbnails, and AI-powered categorization.",
+      "url": "https://keeltekool.github.io/Pocket_Clone/",
+      "github": "https://github.com/keeltekool/Pocket_Clone"
+    },
+    {
+      "id": "spotify-artist-browser",
+      "title": "Spotify Artist Browser",
+      "description": "Discover 5,800+ artists across 34 genres. Find playlists on Spotify.",
+      "url": "https://spotify-artist-browser-gamma.vercel.app",
+      "github": "https://github.com/keeltekool/spotify-artist-browser"
+    },
+    {
+      "id": "spotify-discovery",
+      "title": "Spotify Genre Browser",
+      "description": "Discover new music through Spotify's genre ecosystem. Browse main genres and subgenres with 5,800+ artists.",
+      "url": "https://keeltekool.github.io/spotify-discovery/",
+      "github": "https://github.com/keeltekool/spotify-discovery"
+    },
+    {
+      "id": "picmachine-web",
+      "title": "PicMachine Web",
+      "description": "Cloud image viewer. Upload, store, and browse photos with slideshow.",
+      "url": "https://picmachine.vercel.app",
+      "github": "https://github.com/keeltekool/PicMachine_Web"
+    }
+  ]
+}
