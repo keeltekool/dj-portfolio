@@ -41,7 +41,7 @@ export function Events() {
 
   return (
     <section className="py-10 md:py-12 border-t border-[var(--border)]">
-      <h2 className="text-3xl uppercase tracking-widest text-[var(--accent)] font-bold mb-8">{t.events.header}</h2>
+      <h2 className="text-3xl uppercase tracking-widest text-[var(--accent)] font-bold mb-8 underline underline-offset-8 decoration-2">{t.events.header}</h2>
       <div className="grid sm:grid-cols-3 gap-6">
         {eventTypes.map((event) => (
           <div

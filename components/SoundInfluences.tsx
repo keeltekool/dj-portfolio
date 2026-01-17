@@ -10,7 +10,7 @@ export function SoundInfluences() {
     <section className="py-10 md:py-12 border-t border-[var(--border)]">
       <div className="grid md:grid-cols-2 gap-12">
         <div>
-          <h2 className="text-3xl uppercase tracking-widest text-[var(--accent)] font-bold mb-6">{t.sound.header}</h2>
+          <h2 className="text-3xl uppercase tracking-widest text-[var(--accent)] font-bold mb-6 underline underline-offset-8 decoration-2">{t.sound.header}</h2>
           <div className="flex flex-wrap gap-3">
             {genres.map((genre) => (
               <span
@@ -23,7 +23,7 @@ export function SoundInfluences() {
           </div>
         </div>
         <div>
-          <h2 className="text-3xl uppercase tracking-widest text-[var(--accent)] font-bold mb-6">{t.sound.digDeeper}</h2>
+          <h2 className="text-3xl uppercase tracking-widest text-[var(--accent)] font-bold mb-6 underline underline-offset-8 decoration-2">{t.sound.digDeeper}</h2>
           <a
             href="https://spotify-artist-browser-gamma.vercel.app/"
             target="_blank"
