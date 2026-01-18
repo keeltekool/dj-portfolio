@@ -65,7 +65,7 @@ export function Venues() {
   return (
     <section className="py-10 md:py-12 border-t border-[var(--border)]">
       <div className="flex flex-col items-center text-center">
-        <p className="text-3xl italic text-[var(--muted)] mb-8">Some of the gigs & venues</p>
+        <h2 className="text-3xl uppercase tracking-widest text-[var(--accent)] font-bold mb-8 underline underline-offset-8 decoration-2 self-start">References</h2>
         <div className="flex flex-wrap justify-center gap-12 md:gap-16">
           <div className="flex flex-col items-center">
             <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-lg overflow-hidden bg-white hover:scale-105 transition-transform duration-200">

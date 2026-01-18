@@ -12,7 +12,7 @@ export const translations = {
       ],
     },
     events: {
-      header: "Available for",
+      header: "Available",
       barLounge: "Bar & Lounge sets",
       corporate: "Corporate events",
       private: "Private parties",
@@ -34,7 +34,7 @@ export const translations = {
       tagline: "Full mobile setup — ready for any venue.",
     },
     listen: {
-      header: "Tune In What I'm Feeling Currently",
+      header: "Currently Feeling",
       followSpotify: "Follow on Spotify",
     },
     booking: {
@@ -69,7 +69,7 @@ export const translations = {
       ],
     },
     events: {
-      header: "Kus mängin",
+      header: "Saadaval",
       barLounge: "Baari- ja lounge-setid",
       corporate: "Firmaüritused",
       private: "Eraüritused",
