@@ -12,14 +12,14 @@ export const translations = {
       ],
     },
     events: {
-      header: "Available for",
+      header: "Available",
       barLounge: "Bar & Lounge sets",
       corporate: "Corporate events",
       private: "Private parties",
       tagline: "With 10,000+ tracks in the collection and years of reading crowds, every set is built in real-time. No pre-planned playlists — just pure energy, reading the room, and finding the perfect next track to keep the vibe moving.",
     },
     sound: {
-      header: "My Sound",
+      header: "Sound",
       digDeeper: "Dig Deeper",
       artistBrowser: "My Spotify Browser",
       customBuilt: "",
@@ -27,14 +27,14 @@ export const translations = {
       exploreCollection: "Explore the collection",
     },
     gear: {
-      header: "My Gear",
+      header: "Gear",
       console: "Console",
       speakers: "Speakers",
       subs: "Subs",
       tagline: "Full mobile setup — ready for any venue.",
     },
     listen: {
-      header: "Tune In What I'm Feeling Currently",
+      header: "Currently Feeling",
       followSpotify: "Follow on Spotify",
     },
     booking: {
@@ -69,14 +69,14 @@ export const translations = {
       ],
     },
     events: {
-      header: "Kus mängin",
+      header: "Saadaval",
       barLounge: "Baari- ja lounge-setid",
       corporate: "Firmaüritused",
       private: "Eraüritused",
       tagline: "Üle 10 000 loo kollektsioonis ja aastatepikkune kogemus rahva lugemisel — iga sett sünnib reaalajas. Mitte mingeid eelnevalt kokku pandud playliste — ainult puhas energia, publiku tunnetamine ja õige järgmise loo leidmine, et vibe liiguks edasi.",
     },
     sound: {
-      header: "Minu Saund",
+      header: "Saund",
       digDeeper: "Avasta",
       artistBrowser: "Artist Browser Tool",
       customBuilt: "", // Remove for EE
@@ -84,7 +84,7 @@ export const translations = {
       exploreCollection: "Tutvu kollektsiooniga",
     },
     gear: {
-      header: "Minu Gear",
+      header: "Gear",
       console: "DJ Pult",
       speakers: "Topid",
       subs: "Subid",
