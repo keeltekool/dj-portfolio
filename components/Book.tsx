@@ -17,7 +17,7 @@ export function Book() {
     setStatus("sending");
 
     try {
-      const response = await fetch("https://formsubmit.co/ajax/egertv@gmail.com", {
+      const response = await fetch("https://formspree.io/f/mdaaebpq", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -27,7 +27,6 @@ export function Book() {
           name: formData.name,
           email: formData.email,
           message: formData.message,
-          _subject: "DJ Booking Inquiry",
         }),
       });
 
