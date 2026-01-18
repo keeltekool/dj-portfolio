@@ -12,16 +12,32 @@ export function Book() {
   });
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("sending");
 
-    const mailtoLink = `mailto:egertv@gmail.com?subject=Booking Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-    )}`;
+    try {
+      const response = await fetch("https://formspree.io/f/xpwzgkvq", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        }),
+      });
 
-    window.location.href = mailtoLink;
-    setStatus("sent");
+      if (response.ok) {
+        setStatus("sent");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
 
     setTimeout(() => {
       setStatus("idle");
