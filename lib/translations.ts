@@ -19,7 +19,7 @@ export const translations = {
       tagline: "With 10,000+ tracks in the collection and years of reading crowds, every set is built in real-time. No pre-planned playlists — just pure energy, reading the room, and finding the perfect next track to keep the vibe moving.",
     },
     sound: {
-      header: "My Sound",
+      header: "Sound",
       digDeeper: "Dig Deeper",
       artistBrowser: "My Spotify Browser",
       customBuilt: "",
@@ -27,7 +27,7 @@ export const translations = {
       exploreCollection: "Explore the collection",
     },
     gear: {
-      header: "My Gear",
+      header: "Gear",
       console: "Console",
       speakers: "Speakers",
       subs: "Subs",
@@ -76,7 +76,7 @@ export const translations = {
       tagline: "Üle 10 000 loo kollektsioonis ja aastatepikkune kogemus rahva lugemisel — iga sett sünnib reaalajas. Mitte mingeid eelnevalt kokku pandud playliste — ainult puhas energia, publiku tunnetamine ja õige järgmise loo leidmine, et vibe liiguks edasi.",
     },
     sound: {
-      header: "Minu Saund",
+      header: "Saund",
       digDeeper: "Avasta",
       artistBrowser: "Artist Browser Tool",
       customBuilt: "", // Remove for EE
@@ -84,7 +84,7 @@ export const translations = {
       exploreCollection: "Tutvu kollektsiooniga",
     },
     gear: {
-      header: "Minu Gear",
+      header: "Gear",
       console: "DJ Pult",
       speakers: "Topid",
       subs: "Subid",
